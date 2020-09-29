@@ -10,14 +10,12 @@
     "start-dev": "webpack-dev-server --config webpack.dev.js --open",
     "build": "webpack --config webpack.prod.js",
     "heroku-prebuild": "npm install --dev",
-    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress"
+    "heroku-postbuild": "webpack -p --config ./webpack.prod.js --progress"
   },
   "author": "scantarbian",
   "license": "ISC",
   "dependencies": {
     "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11",
-    "webpack-merge": "^4.2.2",
     "html-webpack-plugin": "^4.3.0",
     "jquery": "^3.5.1"
   },
@@ -33,6 +31,8 @@
     "particles.js": "^2.0.0",
     "style-loader": "^1.2.1",
     "typeit": "^7.0.4",
+    "webpack-cli": "^3.3.11",
+    "webpack-merge": "^4.2.2",
     "webpack-dev-server": "^3.11.0"
   }
 }
