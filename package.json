@@ -16,8 +16,9 @@
   "author": "scantarbian",
   "license": "ISC",
   "dependencies": {
-    "webpack": "^4.43.0",
-    "jquery": "^3.5.1"
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "webpack": "^4.43.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
