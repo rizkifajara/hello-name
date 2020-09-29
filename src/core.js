@@ -1,4 +1,3 @@
-import "regenerator-runtime";
 import "moment";
 import "particles.js";
 import "bootstrap/dist/css/bootstrap.min.css";
