@@ -7,7 +7,7 @@
     "node": "14.x"
   },
   "scripts": {
-    "start": "node src/core.js",
+    "start": "node dist/bundle.js",
     "start-dev": "webpack-dev-server --config webpack.dev.js --open",
     "build": "webpack --config webpack.prod.js",
     "heroku-prebuild": "npm install --dev",
