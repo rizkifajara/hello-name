@@ -11,13 +11,15 @@
     "start-dev": "webpack-dev-server --config webpack.dev.js --open",
     "build": "webpack --config webpack.prod.js",
     "heroku-prebuild": "npm install --dev",
-    "heroku-postbuild": "webpack -p"
+    "heroku-postbuild": "webpack -p --config ./webpack.prod.js --progress"
   },
   "author": "scantarbian",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "webpack": "^4.43.0",
-    "jquery": "^3.5.1",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
     "@fortawesome/fontawesome-free": "^5.13.0",
