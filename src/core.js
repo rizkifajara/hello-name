@@ -1,0 +1,14 @@
+import "regenerator-runtime";
+import "moment";
+import "particles.js";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./styles/main.css";
+import "./scripts/component/mainSplash.js";
+import "./scripts/component/time.js";
+import "./scripts/component/search.js";
+import "./scripts/component/particlesBackground.js";
+import "./scripts/component/sidebar.js";
+import '@fortawesome/fontawesome-free/js/fontawesome.min';
+import '@fortawesome/fontawesome-free/js/solid.min';
+import '@fortawesome/fontawesome-free/js/regular.min';
+import '@fortawesome/fontawesome-free/js/brands';
