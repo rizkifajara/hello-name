@@ -16,13 +16,13 @@
   "license": "ISC",
   "dependencies": {
     "webpack": "^4.43.0",
-    "html-webpack-plugin": "^4.3.0",
     "jquery": "^3.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
     "@fortawesome/fontawesome-free": "^5.13.0",
+    "html-webpack-plugin": "^4.3.0",
     "babel-loader": "^8.1.0",
     "bootstrap": "^4.5.0",
     "css-loader": "^3.5.3",
