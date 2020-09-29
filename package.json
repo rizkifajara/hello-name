@@ -2,12 +2,12 @@
   "name": "singlescreenproject",
   "version": "1.2.4",
   "description": "Hello, me",
-  "main": "index.js",
+  "main": "core.js",
   "engines": {
     "node": "14.x"
   },
   "scripts": {
-    "start": "node bundle.js",
+    "start": "node core.js",
     "start-dev": "webpack-dev-server --config webpack.dev.js --open",
     "build": "webpack --config webpack.prod.js",
     "heroku-prebuild": "npm install --dev",
