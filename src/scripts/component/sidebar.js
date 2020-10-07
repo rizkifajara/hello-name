@@ -1,6 +1,6 @@
 import {getUpcomingLaunches} from "./features/launches.js";
 import {resetUsername} from "./features/resetUname.js";
-import {displayTest} from "./features/testDummy.js";
+import {renderCalc} from "./features/calculator"
 
 $("#sidebar")
     .css({
@@ -69,8 +69,8 @@ $("#display button i")
 //JAVASCRIPTS
 const $display = $("#display");
 const $launches= $("#sidebar #sidebarContent ul li[id='rktLaunch']");
+const $calc= $("#sidebar #sidebarContent ul li[id='calculator']");
 const $resetName= $("#sidebar #sidebarContent ul li[id='rstUname']")
-const $test= $("#sidebar #sidebarContent ul li[id='dummy']")
 
 const sidebarContentAnim = () => {
     $("#sidebarContent")
@@ -116,13 +116,15 @@ $launches.on("click", function(){
     displayRender();
 })
 
+$calc.on("click", function(){
+    sidebarContentAnim();
+    renderCalc();
+    displayRender();
+})
+
 $resetName.on("click", function(){
     resetUsername();
     location.reload();
-})
-
-$test.on("click", function(){
-    displayTest()
 })
 
 $(document).mouseup(function(e) 

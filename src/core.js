@@ -8,6 +8,7 @@ import "./scripts/component/time.js";
 import "./scripts/component/search.js";
 import "./scripts/component/particlesBackground.js";
 import "./scripts/component/sidebar.js";
+import "./scripts/component/features/calculator.js";
 import '@fortawesome/fontawesome-free/js/fontawesome.min';
 import '@fortawesome/fontawesome-free/js/solid.min';
 import '@fortawesome/fontawesome-free/js/regular.min';

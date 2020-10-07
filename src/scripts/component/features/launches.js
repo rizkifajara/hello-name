@@ -4,8 +4,6 @@ const $display = $("content-container");
 const request = new XMLHttpRequest();
 let launchList;
 
-
-
 export async function getUpcomingLaunches () {
     await request.open('GET', 'https://launchlibrary.net/1.4/launch/next/3');
     request.onload = function() {
@@ -18,8 +16,6 @@ export async function getUpcomingLaunches () {
 
 const renderLaunches = (launchList) => { //IMPLEMENT ASYNC AWAIT
     for (let i=0; i<launchList.launches.length; i++){
-        console.log(launchList.launches[i]);
-        console.log("RENDERED!");
         $display.append(`
         <div class="items">
             <div class="text">
